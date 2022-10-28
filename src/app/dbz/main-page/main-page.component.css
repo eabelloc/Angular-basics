@@ -1,10 +1,6 @@
-h1 {
-  color: var(--headline);
-  font-weight: bold;
-}
-
 .row {
   display: flex;
+  padding-bottom: 0.5rem;
 }
 
 .col {

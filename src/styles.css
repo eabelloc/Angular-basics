@@ -1,17 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --backgroud: #e2ecf4;
+  --headline: #08090b;
+}
+
 * {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 200;
 }
 
-html, body {
-
-  background: white;
-  margin: 20px;
-  color: #3e4144;
-  -webkit-font-smoothing: antialiased;
+h1 {
+  color: var(--headline);
+  font-weight: bold;
+}
+h3 {
+  color: var(--headline);
+  font-weight: bold;
 }
 
+html, body {
+  margin: 20px;
+  background-color: var(--backgroud);
+  color: var(--headline);
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
 
 dd {
   font-weight: bold;
@@ -38,4 +55,13 @@ button:focus{
 
 .p-1 {
   padding: 1px;
+}
+
+.counter_container {
+  padding-bottom: 0.7rem;
+}
+.all_wrapper {
+  border: solid 2px var(--headline);
+  border-radius: 10px;
+  padding: 20px 40px;
 }

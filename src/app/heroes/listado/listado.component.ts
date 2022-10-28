@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListadoComponent{
 
-  heroes: string[] = ['spiderman', 'ironman', 'hulk', 'c. america'];
+  heroes: string[] = ['Spiderman', 'Ironman', 'Hulk', 'Capt. America'];
   heroeBorrado: string = ''
 
   borrarHeroe(): void {

@@ -11,8 +11,8 @@ export class MainPageComponent {
 
 
   nuevo: Personaje = {
-    nombre: 'Maestro Roshi',
-    poder: 2000
+    nombre: 'Gohan',
+    poder: 16000
   }
 
   constructor() {}
